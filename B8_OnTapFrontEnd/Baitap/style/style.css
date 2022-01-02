@@ -1,0 +1,63 @@
+.body-contain{
+    margin-top: 10px;
+}
+.nav-background{
+    background-color: black;
+
+}
+.white-text-style{
+    color: white; 
+}
+.white-text-style:hover{
+    color: green;
+}
+.row {
+    margin-top: 10px ;
+    margin-bottom: 10px;
+}
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+.center-style{
+    justify-content: center;
+}
+.color-style{
+    color: black;
+}
+.flex-col-container{
+    display: flex;
+    flex-direction: column;
+}
+.flex-row-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.flex-row-container div{
+    /* text-align: center;  */
+    margin-right: 10px;
+}
+.text-align-style{
+    
+    text-align: center
+} 
+.dot {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(235, 139, 139);
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+  }
+.dot div{
+    position: absolute;
+    /* text-align: center; */
+    top:50%; 
+    left:50%; 
+    transform:translate(-50%, -50%); 
+    width:50%; /* You can specify ANY width values here */ 
+}
+.footer{
+    /* align-items: center; */
+}
